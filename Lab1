@@ -215,27 +215,40 @@ namespace LaboratoryWork1
         
         public void square(int x) // Задание 3.7
         {
-            String Line = "";
-            for (int i = 0; i < x; i++)
-                Line += '*';
+            if (x >= 0)
+            {
+                String Line = "";
+                for (int i = 0; i < x; i++)
+                    Line += '*';
                
-            for (int i = 0;i < x; i++)
-                Console.WriteLine(Line);
+                for (int i = 0;i < x; i++)
+                    Console.WriteLine(Line);
+            }
+            else
+            {
+                Console.WriteLine("Ошибка: число меньше 0!");
+            }
         }
 
         public void rightTriangle(int x) // Задание 3.9
         {
-            String Line = "";
-            for (int i = 1; i <= x; i++)
+            if (x >= 0)
             {
-                for (int j = x-i; j > 0; j--)
-                    Line += ' ';
-                for (int k = 0; k < i; k++)
-                    Line += '*';
-                Console.WriteLine(Line);
-                Line = "";
+                String Line = "";
+                for (int i = 1; i <= x; i++)
+                {
+                    for (int j = x-i; j > 0; j--)
+                        Line += ' ';
+                    for (int k = 0; k < i; k++)
+                        Line += '*';
+                    Console.WriteLine(Line);
+                    Line = "";
+                }
             }
-                
+            else
+            {
+                Console.WriteLine("Ошибка: число меньше 0!");
+            }
         }
 
         public int findFirst(int[] arr, int x) // Задание 4.1
