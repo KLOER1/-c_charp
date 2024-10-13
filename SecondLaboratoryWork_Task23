@@ -1,0 +1,214 @@
+using System;
+
+class Time
+{
+    public byte Hours;
+    public byte Minutes;
+
+    public Time(byte hours = 0, byte minetes = 0)
+    {
+        this.Hours = hours;
+        this.Minutes = minetes;
+    }
+
+    public override string ToString()
+    {
+        return $"{Hours}:{((Minutes < 10) ? "0" : "")}{Minutes}";
+    }
+
+    // Задание 2
+    public static Time operator-(Time time1, Time time2)
+    {
+        Time ResultTime = new Time(time1.Hours, time1.Minutes);
+        if (ResultTime.Minutes < time2.Minutes)
+        {
+            ResultTime.Minutes = (byte)(60 + ResultTime.Minutes - time2.Minutes);
+            if (ResultTime.Hours == 0)
+            {
+                ResultTime.Hours = 23;
+            }
+            else
+                --ResultTime.Hours;
+        }
+        else
+        {
+            ResultTime.Minutes -= time2.Minutes;
+        }
+
+        if (ResultTime.Hours < time2.Hours)
+            ResultTime.Hours = (byte)(24 + ResultTime.Hours - time2.Hours);
+
+        else
+            ResultTime.Hours -= time2.Hours;
+
+        return ResultTime;
+    }
+
+
+    // Задание 3
+    // Унарные операторы
+    public static Time operator++ (Time time)
+    {
+        if (time.Minutes == 59)
+        {
+            time.Minutes = 0;
+            if (time.Hours == 23)
+                time.Hours = 0;
+            else
+                time.Hours++;
+        }
+        else
+            time.Minutes++;
+        return time;
+    }
+
+    public static Time operator --(Time time)
+    {
+        if (time.Minutes == 0)
+        {
+            time.Minutes = 59;
+            if (time.Hours == 0)
+                time.Hours = 23;
+            else
+                time.Hours--;
+        }
+        else
+            time.Minutes--;
+        return time;
+    }
+
+    // Операции приведения типа
+    public static implicit operator int(Time time)
+    {
+        return 60 * time.Hours + time.Minutes;
+    }
+
+    public static explicit operator bool(Time time)
+    {
+        if (time.Hours != 0 && time.Minutes != 0)
+            return true;
+        return false;
+    }
+
+    // Бинарные операции
+    public static bool operator <(Time time1, Time time2)
+    {
+        return (int)time1 < (int)time2;
+    }
+    public static bool operator >(Time time1, Time time2)
+    {
+        return (int)time1 > (int)time2;
+    }
+}
+
+class Program
+{
+    static Random random = new Random();
+
+    static private bool CheckToByte(String Message)
+    {
+        try
+        {
+            byte TempByte = Convert.ToByte(Message);
+        }
+
+        catch (FormatException)
+        {
+            Console.WriteLine("Значение не соответствует соответствующему формату, который необходимо преобразовать из строки методом преобразования. Для безопасного продолжения работы программы, переменная запишет случайное значение из диапазона [0-23] или [0-59]");
+            return false;
+        }
+        catch (OverflowException)
+        {
+            Console.WriteLine("Арифметическое, приведение или операция преобразования приводит к переполнению. Для безопасного продолжения работы программы, переменная запишет случайное значение из диапазона [0-23] или [0-59]");
+            return false;
+        }
+        return true;
+    }
+
+    static private bool CheckToChar(String Message)
+    {
+        try
+        {
+            char TempByte = Convert.ToChar(Message);
+        }
+
+        catch (FormatException)
+        {
+            Console.WriteLine("Значение не соответствует соответствующему формату, который необходимо преобразовать из строки методом преобразования. Для безопасного продолжения работы программы, переменная запишет значение '4'!");
+            return false;
+        }
+        return true;
+    }
+
+    static private Time CreateNewClassTime()
+    {
+        byte Hours = 0, Minutes = 0;
+        String Message;
+        char Symbol;
+
+        Console.WriteLine("Для создания нового класса Time, введите цифру, чтобы выбрать конструктор создания:");
+        Console.WriteLine("1 - Вписать Hours и Minutes");
+        Console.WriteLine("2 - Вписать Hours");
+        Console.WriteLine("3 - Вписать Minutes");
+        Console.WriteLine("4 - Установка начального времени 0:00");
+        Console.Write("Symbol= ");
+
+        Message = Console.ReadLine();
+        Symbol = (CheckToChar(Message)) ? Convert.ToChar(Message) : '4';
+
+        switch (Symbol)
+        {
+            case '1':
+                {
+                    Console.Write("Введите Hours= ");
+                    Message = Console.ReadLine();
+                    Hours = (CheckToByte(Message)) ? (byte)(Convert.ToByte(Message) % 24) : (byte)random.Next(0, 23);
+                    Console.Write("Введите Minutes= ");
+                    Message = Console.ReadLine();
+                    Minutes = (CheckToByte(Message)) ? (byte)(Convert.ToByte(Message) % 60) : (byte)random.Next(0, 59);
+                    break;
+                }
+            case '2':
+                {
+                    Console.Write("Введите Hours= ");
+                    Message = Console.ReadLine();
+                    Hours = (CheckToByte(Message)) ? (byte)(Convert.ToByte(Message) % 24) : (byte)random.Next(0, 23);
+                    break;
+                }
+            case '3':
+                {
+                    Console.Write("Введите Minutes= ");
+                    Message = Console.ReadLine();
+                    Minutes = (CheckToByte(Message)) ? (byte)(Convert.ToByte(Message) % 60) : (byte)random.Next(0, 59);
+                    break;
+                }
+            case '4':
+                break;
+            default:
+                {
+                    Console.WriteLine("Похоже вы ввели иной символ, программа считает как '4'!");
+                    break;
+                }
+        }
+        Console.WriteLine($"{Hours}:{((Minutes < 10) ? "0" : "")}{Minutes}");
+        Console.WriteLine();
+        return new Time(Hours, Minutes);
+    }
+
+    public static void Main(string[] args)
+    {
+        Time time1 = CreateNewClassTime();
+        Time time2 = CreateNewClassTime();
+        Time time3 = time1 - time2;
+        Console.WriteLine($"Вычитая время, получаем: {time3.ToString()}");
+        time3++;
+        Console.WriteLine($"Используя инкремент, получаем: {time3.ToString()}");
+        time3--;
+        Console.WriteLine($"Используя декремент, получаем: {time3.ToString()}");
+        Console.WriteLine($"Используя неявное приведения типа (int) получаем: {(int)time3}");
+        bool BooleanResultTime = (bool)time3;
+        Console.WriteLine($"Используя неявное приведения типа bool получаем: {BooleanResultTime}");
+        Console.WriteLine($"Используя бинарные операции сравнения, например time1 < time2, получаем: {time1 < time2}");
+        Console.WriteLine($"Используя бинарные операции сравнения, например time1 > time2, получаем: {time1 > time2}");
+    }
+}
