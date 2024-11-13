@@ -1,0 +1,7 @@
+C:\Users\uzheg\source\repos\ThirdLaboratoryWork_Task123\ThirdLaboratoryWork_Task123\bin\Debug\ThirdLaboratoryWork_Task123.exe.config
+C:\Users\uzheg\source\repos\ThirdLaboratoryWork_Task123\ThirdLaboratoryWork_Task123\bin\Debug\ThirdLaboratoryWork_Task123.exe
+C:\Users\uzheg\source\repos\ThirdLaboratoryWork_Task123\ThirdLaboratoryWork_Task123\bin\Debug\ThirdLaboratoryWork_Task123.pdb
+C:\Users\uzheg\source\repos\ThirdLaboratoryWork_Task123\ThirdLaboratoryWork_Task123\obj\Debug\ThirdLaboratoryWork_Task123.csproj.AssemblyReference.cache
+C:\Users\uzheg\source\repos\ThirdLaboratoryWork_Task123\ThirdLaboratoryWork_Task123\obj\Debug\ThirdLaboratoryWork_Task123.csproj.CoreCompileInputs.cache
+C:\Users\uzheg\source\repos\ThirdLaboratoryWork_Task123\ThirdLaboratoryWork_Task123\obj\Debug\ThirdLaboratoryWork_Task123.exe
+C:\Users\uzheg\source\repos\ThirdLaboratoryWork_Task123\ThirdLaboratoryWork_Task123\obj\Debug\ThirdLaboratoryWork_Task123.pdb
