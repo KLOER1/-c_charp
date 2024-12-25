@@ -1,0 +1,2 @@
+C:\Users\uzheg\source\repos\FifthLaboratoryWork\FifthLaboratoryWork\obj\Debug\FifthLaboratoryWork.csproj.AssemblyReference.cache
+C:\Users\uzheg\source\repos\FifthLaboratoryWork\FifthLaboratoryWork\obj\Debug\FifthLaboratoryWork.csproj.CoreCompileInputs.cache
