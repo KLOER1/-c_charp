@@ -1,0 +1,7 @@
+C:\Users\uzheg\source\repos\FourthLaboratoryWork_Task12345\FourthLaboratoryWork_Task12345\bin\Debug\FourthLaboratoryWork_Task12345.exe.config
+C:\Users\uzheg\source\repos\FourthLaboratoryWork_Task12345\FourthLaboratoryWork_Task12345\bin\Debug\FourthLaboratoryWork_Task12345.exe
+C:\Users\uzheg\source\repos\FourthLaboratoryWork_Task12345\FourthLaboratoryWork_Task12345\bin\Debug\FourthLaboratoryWork_Task12345.pdb
+C:\Users\uzheg\source\repos\FourthLaboratoryWork_Task12345\FourthLaboratoryWork_Task12345\obj\Debug\FourthLaboratoryWork_Task12345.csproj.AssemblyReference.cache
+C:\Users\uzheg\source\repos\FourthLaboratoryWork_Task12345\FourthLaboratoryWork_Task12345\obj\Debug\FourthLaboratoryWork_Task12345.csproj.CoreCompileInputs.cache
+C:\Users\uzheg\source\repos\FourthLaboratoryWork_Task12345\FourthLaboratoryWork_Task12345\obj\Debug\FourthLaboratoryWork_Task12345.exe
+C:\Users\uzheg\source\repos\FourthLaboratoryWork_Task12345\FourthLaboratoryWork_Task12345\obj\Debug\FourthLaboratoryWork_Task12345.pdb
