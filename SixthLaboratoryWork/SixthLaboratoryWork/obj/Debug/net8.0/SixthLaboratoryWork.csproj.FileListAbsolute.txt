@@ -1,0 +1,14 @@
+C:\Users\uzheg\source\repos\SixthLaboratoryWork\SixthLaboratoryWork\bin\Debug\net8.0\SixthLaboratoryWork.exe
+C:\Users\uzheg\source\repos\SixthLaboratoryWork\SixthLaboratoryWork\bin\Debug\net8.0\SixthLaboratoryWork.deps.json
+C:\Users\uzheg\source\repos\SixthLaboratoryWork\SixthLaboratoryWork\bin\Debug\net8.0\SixthLaboratoryWork.runtimeconfig.json
+C:\Users\uzheg\source\repos\SixthLaboratoryWork\SixthLaboratoryWork\bin\Debug\net8.0\SixthLaboratoryWork.dll
+C:\Users\uzheg\source\repos\SixthLaboratoryWork\SixthLaboratoryWork\bin\Debug\net8.0\SixthLaboratoryWork.pdb
+C:\Users\uzheg\source\repos\SixthLaboratoryWork\SixthLaboratoryWork\obj\Debug\net8.0\SixthLaboratoryWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uzheg\source\repos\SixthLaboratoryWork\SixthLaboratoryWork\obj\Debug\net8.0\SixthLaboratoryWork.AssemblyInfoInputs.cache
+C:\Users\uzheg\source\repos\SixthLaboratoryWork\SixthLaboratoryWork\obj\Debug\net8.0\SixthLaboratoryWork.AssemblyInfo.cs
+C:\Users\uzheg\source\repos\SixthLaboratoryWork\SixthLaboratoryWork\obj\Debug\net8.0\SixthLaboratoryWork.csproj.CoreCompileInputs.cache
+C:\Users\uzheg\source\repos\SixthLaboratoryWork\SixthLaboratoryWork\obj\Debug\net8.0\SixthLaboratoryWork.dll
+C:\Users\uzheg\source\repos\SixthLaboratoryWork\SixthLaboratoryWork\obj\Debug\net8.0\refint\SixthLaboratoryWork.dll
+C:\Users\uzheg\source\repos\SixthLaboratoryWork\SixthLaboratoryWork\obj\Debug\net8.0\SixthLaboratoryWork.pdb
+C:\Users\uzheg\source\repos\SixthLaboratoryWork\SixthLaboratoryWork\obj\Debug\net8.0\SixthLaboratoryWork.genruntimeconfig.cache
+C:\Users\uzheg\source\repos\SixthLaboratoryWork\SixthLaboratoryWork\obj\Debug\net8.0\ref\SixthLaboratoryWork.dll
