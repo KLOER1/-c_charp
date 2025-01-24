@@ -1,0 +1,14 @@
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task1\SecondLaboratoryWork_Task1\bin\Debug\net8.0\SecondLaboratoryWork_Task1.exe
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task1\SecondLaboratoryWork_Task1\bin\Debug\net8.0\SecondLaboratoryWork_Task1.deps.json
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task1\SecondLaboratoryWork_Task1\bin\Debug\net8.0\SecondLaboratoryWork_Task1.runtimeconfig.json
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task1\SecondLaboratoryWork_Task1\bin\Debug\net8.0\SecondLaboratoryWork_Task1.dll
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task1\SecondLaboratoryWork_Task1\bin\Debug\net8.0\SecondLaboratoryWork_Task1.pdb
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task1\SecondLaboratoryWork_Task1\obj\Debug\net8.0\SecondLaboratoryWork_Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task1\SecondLaboratoryWork_Task1\obj\Debug\net8.0\SecondLaboratoryWork_Task1.AssemblyInfoInputs.cache
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task1\SecondLaboratoryWork_Task1\obj\Debug\net8.0\SecondLaboratoryWork_Task1.AssemblyInfo.cs
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task1\SecondLaboratoryWork_Task1\obj\Debug\net8.0\SecondLaboratoryWork_Task1.csproj.CoreCompileInputs.cache
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task1\SecondLaboratoryWork_Task1\obj\Debug\net8.0\SecondLaboratoryWork_Task1.dll
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task1\SecondLaboratoryWork_Task1\obj\Debug\net8.0\refint\SecondLaboratoryWork_Task1.dll
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task1\SecondLaboratoryWork_Task1\obj\Debug\net8.0\SecondLaboratoryWork_Task1.pdb
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task1\SecondLaboratoryWork_Task1\obj\Debug\net8.0\SecondLaboratoryWork_Task1.genruntimeconfig.cache
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task1\SecondLaboratoryWork_Task1\obj\Debug\net8.0\ref\SecondLaboratoryWork_Task1.dll
