@@ -1,0 +1,7 @@
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task23\SecondLaboratoryWork_Task23\bin\Debug\SecondLaboratoryWork_Task23.exe.config
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task23\SecondLaboratoryWork_Task23\bin\Debug\SecondLaboratoryWork_Task23.exe
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task23\SecondLaboratoryWork_Task23\bin\Debug\SecondLaboratoryWork_Task23.pdb
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task23\SecondLaboratoryWork_Task23\obj\Debug\SecondLaboratoryWork_Task23.csproj.AssemblyReference.cache
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task23\SecondLaboratoryWork_Task23\obj\Debug\SecondLaboratoryWork_Task23.csproj.CoreCompileInputs.cache
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task23\SecondLaboratoryWork_Task23\obj\Debug\SecondLaboratoryWork_Task23.exe
+C:\Users\uzheg\source\repos\SecondLaboratoryWork_Task23\SecondLaboratoryWork_Task23\obj\Debug\SecondLaboratoryWork_Task23.pdb
